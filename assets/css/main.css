@@ -96,8 +96,22 @@ section {
 	padding: 5%;
 }
 
+.hackathon01-a {
+	float: right;
+	width: 40%;
+	text-align: center;
+	padding: 5%;
+}
+
 .hackathon02 {
 	float: right;
+	width: 40%;
+	text-align: left;
+	padding: 5%;
+}
+
+.hackathon02-a {
+	float: left;
 	width: 40%;
 	text-align: left;
 	padding: 5%;
@@ -147,6 +161,7 @@ footer {
 	color: white;
     background-color: #61a3d0;
 }
+
 .laboratoria {
 	color: #e2ed4c;
 }
