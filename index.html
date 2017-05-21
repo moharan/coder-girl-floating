@@ -6,6 +6,55 @@
 <link href="assets/css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<nav class="menu">
+	<ul class="nav-left">
+		<li><a href="#" class="brand">Code Girls</a></li>
+	</ul>
+	<ul class="nav-right">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Documental</a></li>
+		<li><a href="#">Hackarthon</a></li>
+		<li><a href="#">contacto</a></li>
+	</ul>
+	</nav>
+	<section id="uno">
+			<div class="mensaje">
+				<h1>CHICAS QUE CAMBIAN EL MUNDO</h1>
+				<p class="texto_normal">¡Participa en nuestras actividades!</p>
+				<button class="clic01">Inscribete</button>
+			</div>
+	</section>
+	<section id="dos">
+		<div class="hackathon01">
+			<img src="assets/img/hackathon.jpg" alt="hackaton">
+		</div>
+		<div class="hackathon02">
+			<h2>HACKATHON</h2>
+			<p>¡Participa en nuestras hackathon "Love is Respect"!</p>
+			<p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am.</p>
+			<button class="clic01">Hackathon</button>
+		</div>
+	</section>
+	<section class="tres">
+		<div class="contacto01">
+			<img src="assets/img/made_with_code.jpg" alt="hackaton">
+		</div>
+		<div class="contacto02">
+			<h3>CONTACTO</h3>
+			<p><b>Code Girls</b><br>
+			795 Folsom Ave, Suite 600<br>
+			San Francisco, CA 94107<br>
+			Fono: (123) 456-7890</p>
+
+			<input type="text" name="Nombre" value="Nombre" id="nombre"><br>
+			<input type="text" name="Email" value="Email" id="email"><br>
+			<input type="text" name="Asunto" value="Asunto" id="asunto"><br>
+			<textarea name="Mensaje" id="mensaje">Mensaje</textarea>
+
+			<button class="clic01" onclick="validar()">Enviar</button>
+		</div>
+	</section>
+	<footer>&copy; 2016 Code Girl. Diseñado por <span class="laboratoria">Laboratoria</span></footer>
 <!-- JAVASCRIPT es preferible como ultima linea en el body -->
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
